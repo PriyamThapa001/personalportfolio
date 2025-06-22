@@ -1,0 +1,147 @@
+body{
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    margin:0px;
+
+}
+.container{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding:20px;
+    border-radius:20px;
+    color:white;
+    border:5px solid white;
+    width:300px;
+    text-align: center;
+    height:40vh;
+}
+.head{
+    background-color: white;
+    color:black;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    width: 115px;
+    height:40px;
+    text-align:center;
+    font-size:23px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:absolute;
+    top:0px;
+    left:106px;
+    border:8px solid white;
+    
+}
+.box1{
+
+    padding:20px;
+    border-radius:15px;
+    color:white;
+    border:6px solid white;
+    width:80px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    margin:0px;
+    border-bottom: none;
+    border-right:none;
+    border-left:4px;
+}
+.box2{
+    padding:20px;
+    border-radius:15px;
+    border:6px solid white;
+    width:80px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin:0px;
+    border-bottom:none;
+    border-left:none;
+    border-right:4px;
+}
+#username{
+    height:40px;
+    width:260px;
+    margin-top:70px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    border-radius:50px;
+    padding-left:15px;
+    border:2px solid white;
+    background:rgba(255,255,225,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color:white;
+    
+
+}
+#password{
+    color:white;
+    height:40px;
+    width:260px;
+    margin-top:20px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    border-radius:50px;
+    padding-left:15px;
+    border:2px solid white;
+    background:rgba(255,255,225,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-bottom:15px;
+    
+    
+}
+#checkbox{
+    margin-left:10px;
+}
+#text1{
+    font-family:monospace;
+    font-size:17px;
+}
+#forget{
+    text-decoration: none;
+    color:white;
+    margin-left:30px;
+    font-family:monospace;
+    font-size:15px;
+}
+#forget:hover{
+    color:rgb(216, 216, 216);
+}
+.main{
+    margin-bottom:15px;
+}
+.buttons{
+    padding:0px;
+    height:40px;
+    width:260px;
+    border-radius:50px;
+    border-color:white;
+    background: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size:15px;
+    
+}
+.buttons:hover{
+    background:rgb(129, 129, 129);
+}
+#text2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+#register{
+    text-decoration: none;
+    color:white;
+    font-size:16px;
+}
